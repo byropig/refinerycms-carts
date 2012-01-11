@@ -1,0 +1,44 @@
+--- 
+en: 
+  plugins: 
+    line_items: 
+      title: Line Items
+    carts: 
+      title: Carts
+  line_items: 
+    show: 
+      other: Other Line Items
+  admin: 
+    line_items: 
+      actions: 
+        reorder: Reorder Line Items
+        create_new: Add New Line Item
+        reorder_done: Done Reordering Line Items
+      records: 
+        no_items_yet: There are no Line Items yet. Click "Add New Line Item" to add your first line item.
+        title: Line Items
+        sorry_no_results: Sorry! There are no results found.
+      line_item: 
+        edit: Edit this line item
+        delete: Remove this line item forever
+        view_live_html: View this line item live <br/><em>(opens in a new window)</em>
+    carts: 
+      cart: 
+        edit: Edit this cart
+        delete: Remove this cart forever
+        view_live_html: View this cart live <br/><em>(opens in a new window)</em>
+      actions: 
+        reorder: Reorder Carts
+        create_new: Add New Cart
+        reorder_done: Done Reordering Carts
+      records: 
+        no_items_yet: There are no Carts yet. Click "Add New Cart" to add your first cart.
+        title: Carts
+        sorry_no_results: Sorry! There are no results found.
+  shared: 
+    admin: 
+      image_picker: 
+        image: image
+  carts: 
+    show: 
+      other: Other Carts

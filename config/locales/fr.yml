@@ -1,0 +1,44 @@
+--- 
+fr: 
+  plugins: 
+    line_items: 
+      title: Line Items
+    carts: 
+      title: Carts
+  line_items: 
+    show: 
+      other: Autres Line Items
+  admin: 
+    line_items: 
+      actions: 
+        reorder: "R\xC3\xA9ordonner les Line Items"
+        create_new: "Cr\xC3\xA9er un(e) nouve(au/l/lle) Line Item"
+        reorder_done: "Fin de r\xC3\xA9ordonnancement des Line Items"
+      records: 
+        no_items_yet: "Il n'y a actuellement aucun(e) Line Item. Cliquer sur \"Cr\xC3\xA9er un(e) nouve(au/l/lle) Line Item\" pour cr\xC3\xA9er votre premi(er/\xC3\xA8re) line item."
+        title: Line Items
+        sorry_no_results: "D\xC3\xA9sol\xC3\xA9 ! Aucun r\xC3\xA9sultat."
+      line_item: 
+        edit: Modifier ce(t/tte) line item
+        delete: "Supprimer d\xC3\xA9finitivement ce(t/tte) line item"
+        view_live_html: "Voir ce(t/tte) line item <br/><em>(Ouvre une nouvelle fen\xC3\xAAtre)</em>"
+    carts: 
+      cart: 
+        edit: Modifier ce(t/tte) cart
+        delete: "Supprimer d\xC3\xA9finitivement ce(t/tte) cart"
+        view_live_html: "Voir ce(t/tte) cart <br/><em>(Ouvre une nouvelle fen\xC3\xAAtre)</em>"
+      actions: 
+        reorder: "R\xC3\xA9ordonner les Carts"
+        create_new: "Cr\xC3\xA9er un(e) nouve(au/l/lle) Cart"
+        reorder_done: "Fin de r\xC3\xA9ordonnancement des Carts"
+      records: 
+        no_items_yet: "Il n'y a actuellement aucun(e) Cart. Cliquer sur \"Cr\xC3\xA9er un(e) nouve(au/l/lle) Cart\" pour cr\xC3\xA9er votre premi(er/\xC3\xA8re) cart."
+        title: Carts
+        sorry_no_results: "D\xC3\xA9sol\xC3\xA9 ! Aucun r\xC3\xA9sultat."
+  shared: 
+    admin: 
+      image_picker: 
+        image: image
+  carts: 
+    show: 
+      other: Autres Carts

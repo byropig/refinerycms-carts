@@ -1,0 +1,24 @@
+<%= form_for [:admin, @cart] do |f| -%>
+  <%= render :partial => "/shared/admin/error_messages", :locals => {
+          :object => @cart,
+          :include_object_name => true
+        } %>
+  
+  <div class='field'>
+    <%= f.label :customer -%>
+    <%= f.text_field :customer, :class => 'larger widest'  -%>
+  </div>
+  
+  <div class='field'>
+    <%= f.label :is_current -%>
+    <%= f.check_box :is_current, :checked => @cart[:is_current]  -%>
+  </div>
+  
+  <%= render :partial => "/shared/admin/form_actions",
+              :locals => {
+                :f => f,
+                :continue_editing => false,
+                :delete_title => t('delete', :scope => 'admin.carts.cart'),
+                :delete_confirmation => t('message', :scope => 'shared.admin.delete')
+              } %>
+<% end -%>

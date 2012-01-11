@@ -1,0 +1,40 @@
+--- 
+nb: 
+  plugins: 
+    line_items: 
+      title: Line Items
+    carts: 
+      title: Carts
+  line_items: 
+    show: 
+      other: Andre Line Items
+  admin: 
+    line_items: 
+      actions: 
+        reorder: "Endre rekkef\xC3\xB8lgen p\xC3\xA5 Line Items"
+        create_new: Lag en ny Line Item
+        reorder_done: "Ferdig \xC3\xA5 endre rekkef\xC3\xB8lgen Line Items"
+      records: 
+        no_items_yet: "Det er ingen Line Items enda. Klikk p\xC3\xA5 \"Lag en ny Line Item\" for \xC3\xA5 legge til din f\xC3\xB8rste line item."
+        title: Line Items
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+      line_item: 
+        edit: Rediger denne line item
+        delete: Fjern denne line item permanent
+        view_live_html: "Vis hvordan denne line item ser ut offentlig <br/><em>(\xC3\xA5pner i et nytt vindu)</em>"
+    carts: 
+      cart: 
+        edit: Rediger denne cart
+        delete: Fjern denne cart permanent
+        view_live_html: "Vis hvordan denne cart ser ut offentlig <br/><em>(\xC3\xA5pner i et nytt vindu)</em>"
+      actions: 
+        reorder: "Endre rekkef\xC3\xB8lgen p\xC3\xA5 Carts"
+        create_new: Lag en ny Cart
+        reorder_done: "Ferdig \xC3\xA5 endre rekkef\xC3\xB8lgen Carts"
+      records: 
+        no_items_yet: "Det er ingen Carts enda. Klikk p\xC3\xA5 \"Lag en ny Cart\" for \xC3\xA5 legge til din f\xC3\xB8rste cart."
+        title: Carts
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+  carts: 
+    show: 
+      other: Andre Carts

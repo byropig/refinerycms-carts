@@ -1,0 +1,39 @@
+<% content_for :body_content_title do %>
+  <%= @line_item.title %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Cart</h1>
+    <p>
+      <%=raw @line_item.cart %>
+    </p>
+  </section>
+  <section>
+    <h1>Product</h1>
+    <p>
+      <%=raw @line_item.product %>
+    </p>
+  </section>
+  <section>
+    <h1>Quantity</h1>
+    <p>
+      <%=raw @line_item.quantity %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="line_items">
+      <% @line_items.each do |line_item| %>
+        <li>
+          <%= link_to line_item.title, line_item_path(line_item) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

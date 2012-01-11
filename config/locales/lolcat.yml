@@ -1,0 +1,44 @@
+--- 
+lolcat: 
+  plugins: 
+    line_items: 
+      title: Line Items
+    carts: 
+      title: Carts
+  line_items: 
+    show: 
+      other: OTHR Line Items
+  admin: 
+    line_items: 
+      actions: 
+        reorder: REORDR Line Items
+        create_new: CREATE NEW Line Item
+        reorder_done: DUN REORDERIN Line Items
+      records: 
+        no_items_yet: THAR R NO Line Items YET. CLICK "CREATE NEW Line Item" 2 ADD UR FURST line item.
+        title: Line Items
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+      line_item: 
+        edit: EDIT DIS line item
+        delete: REMOOV DIS line item FOREVR
+        view_live_html: VIEW DIS line item LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+    carts: 
+      cart: 
+        edit: EDIT DIS cart
+        delete: REMOOV DIS cart FOREVR
+        view_live_html: VIEW DIS cart LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+      actions: 
+        reorder: REORDR Carts
+        create_new: CREATE NEW Cart
+        reorder_done: DUN REORDERIN Carts
+      records: 
+        no_items_yet: THAR R NO Carts YET. CLICK "CREATE NEW Cart" 2 ADD UR FURST cart.
+        title: Carts
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+  shared: 
+    admin: 
+      image_picker: 
+        image: IMAGE
+  carts: 
+    show: 
+      other: OTHR Carts

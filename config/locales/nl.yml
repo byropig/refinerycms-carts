@@ -1,0 +1,40 @@
+--- 
+nl: 
+  plugins: 
+    line_items: 
+      title: Line Items
+    carts: 
+      title: Carts
+  line_items: 
+    show: 
+      other: Andere Line Items
+  admin: 
+    line_items: 
+      actions: 
+        reorder: Wijzig de volgorde van de Line Items
+        create_new: Maak een nieuwe Line Item
+        reorder_done: Klaar met het wijzingen van de volgorde van de Line Items
+      records: 
+        no_items_yet: Er zijn nog geen Line Items. Druk op 'Maak een nieuwe Line Item' om de eerste aan te maken.
+        title: Line Items
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+      line_item: 
+        edit: Bewerk deze line item
+        delete: Verwijder deze line item voor eeuwig
+        view_live_html: Bekijk deze line item op de website <br/><em>(opent een nieuw venster)</em>
+    carts: 
+      cart: 
+        edit: Bewerk deze cart
+        delete: Verwijder deze cart voor eeuwig
+        view_live_html: Bekijk deze cart op de website <br/><em>(opent een nieuw venster)</em>
+      actions: 
+        reorder: Wijzig de volgorde van de Carts
+        create_new: Maak een nieuwe Cart
+        reorder_done: Klaar met het wijzingen van de volgorde van de Carts
+      records: 
+        no_items_yet: Er zijn nog geen Carts. Druk op 'Maak een nieuwe Cart' om de eerste aan te maken.
+        title: Carts
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+  carts: 
+    show: 
+      other: Andere Carts

@@ -2,6 +2,7 @@ class LineItem < ActiveRecord::Base
 
   belongs_to :cart
   belongs_to :product
+  belongs_to :variant
   
   # def title was created automatically because you didn't specify a string field
   # when you ran the refinery_engine generator. Love, Refinery CMS.
@@ -10,8 +11,11 @@ class LineItem < ActiveRecord::Base
   end
   
   def total_price
-      
-    product.price * quantity
+    if variant_id.blank?  
+      product.price * quantity
+    else
+      variant.price * quantity
+    end  
       
   end
   

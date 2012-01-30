@@ -20,14 +20,25 @@ class Cart < ActiveRecord::Base
   end
   
   
-  def add_to_the_cart(product_id, quantity = 1)
-    li = self.line_items.where(:product_id => product_id).first
+  def add_to_the_cart(product_id, quantity = 1, variant_id = nil)
+    if variant_id.blank?
+      li = self.line_items.where(:product_id => product_id).first
+    else
+      li = self.line_items.where(:product_id => product_id, :variant_id => variant_id).first
+    end  
+    
+    #logger.info("****************** the variant id = #{variant_id}")
     
     if li.present?
       li.quantity += quantity.to_i
       li.save
     else
-      self.line_items.create(:product_id => product_id, :quantity => quantity)
+      if variant_id.blank?  
+        self.line_items.create(:product_id => product_id, :quantity => quantity)
+      else
+        self.line_items.create(:product_id => product_id, :quantity => quantity, :variant_id => variant_id)
+      end
+      
     end 
   end
   
